@@ -225,7 +225,7 @@ plt.colorbar(scatter)
 # 
 # It is probabilistic based clustering or kernel density estimation based clusterig. The clusters are formed based on the Gaussian distribution of the centers. For further details and pictorial description, refer https://home.deib.polimi.it/matteucc/Clustering/tutorial_html/mixture.html
 
-# In[82]:
+# 
 
 
 def doGMM(X, nclust=2):

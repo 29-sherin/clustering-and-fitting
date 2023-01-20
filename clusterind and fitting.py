@@ -304,7 +304,6 @@ iplot(map3)
 # ### *(4) GMM*
 # 
 
-# In[122]:
 
 
 data = [dict(type='choropleth',

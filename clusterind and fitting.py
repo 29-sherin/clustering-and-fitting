@@ -325,7 +325,6 @@ iplot(map4)
 
 # # GDP
 
-# In[99]:
 
 
 from ipywidgets import interact,widgets # for interactive visualization
@@ -336,14 +335,12 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-# In[100]:
 
 
 num_vars = wh1.select_dtypes(exclude="O").columns.to_list()
 print("Numerical variables:", num_vars)
 
 
-# In[121]:
 
 
 #
@@ -362,7 +359,6 @@ plt.tight_layout()
 plt.show()
 
 
-# In[ ]:
 
 
 

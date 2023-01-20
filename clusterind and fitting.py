@@ -138,8 +138,6 @@ kmeans = pd.DataFrame(clust_labels)
 wh1.insert((wh1.shape[1]),'kmeans',kmeans)
 
 
-# In[73]:
-
 
 #Plot the clusters obtained using k means
 fig = plt.figure()

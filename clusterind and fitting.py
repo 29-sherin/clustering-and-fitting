@@ -189,7 +189,6 @@ plt.colorbar(scatter)
 # 
 # It does not require the number of cluster to be estimated and provided before starting the algorithm. It makes no assumption regarding the internal structure of the data points. For further details on clustering, refer http://www.learndatasci.com/k-means-clustering-algorithms-python-intro/
 
-# In[80]:
 
 
 def doAffinity(X):
@@ -204,7 +203,6 @@ affinity = pd.DataFrame(clust_labels2)
 wh1.insert((wh1.shape[1]),'affinity',affinity)
 
 
-# In[81]:
 
 
 #Plotting the cluster obtained using Affinity algorithm
@@ -272,7 +270,6 @@ iplot(map1)
 
 # ### (2) Agglomerative Clustering
 
-# In[90]:
 
 
 data = [dict(type='choropleth',
@@ -290,7 +287,6 @@ iplot(map2)
 
 # ### (3) Affinity Propagation
 
-# In[93]:
 
 
 data = [dict(type='choropleth',

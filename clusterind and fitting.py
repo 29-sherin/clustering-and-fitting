@@ -158,7 +158,6 @@ plt.colorbar(scatter)
 # 
 # Python Tip: Though providing the number of clusters is not necessary but Python provides an option of providing the same for easy and simple use.
 
-# In[ ]:
 
 
 def doAgglomerative(X, nclust=2):
@@ -170,8 +169,6 @@ clust_labels1 = doAgglomerative(wh1, 2)
 agglomerative = pd.DataFrame(clust_labels1)
 wh1.insert((wh1.shape[1]),'agglomerative',agglomerative)
 
-
-# In[79]:
 
 
 # Plot the clusters obtained using Agglomerative clustering or Hierarchical clustering
